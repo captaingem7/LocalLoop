@@ -1,0 +1,29 @@
+{
+  "name": "localloop-fullstack",
+  "private": true,
+  "version": "1.2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm:server\" \"npm:client\"",
+    "server": "node server/index.js",
+    "client": "vite",
+    "build": "vite build",
+    "start": "node server/index.js"
+  },
+  "dependencies": {
+    "@netlify/blobs": "latest",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "vite": "^6.0.5",
+    "motion": "^12.23.24",
+    "three": "^0.171.0",
+    "@react-three/fiber": "^8.18.0",
+    "@react-three/drei": "^9.122.0"
+  },
+  "devDependencies": {}
+}
